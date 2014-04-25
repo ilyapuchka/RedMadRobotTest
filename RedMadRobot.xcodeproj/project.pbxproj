@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09EEDC8A190A80E900AB63BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09EEDC89190A80E900AB63BF /* Foundation.framework */; };
+		09EEDC8C190A80E900AB63BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09EEDC8B190A80E900AB63BF /* CoreGraphics.framework */; };
+		09EEDC8E190A80E900AB63BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09EEDC8D190A80E900AB63BF /* UIKit.framework */; };
+		09EEDC94190A80E900AB63BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09EEDC92190A80E900AB63BF /* InfoPlist.strings */; };
+		09EEDC96190A80E900AB63BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EEDC95190A80E900AB63BF /* main.m */; };
+		09EEDC9A190A80E900AB63BF /* RMRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EEDC99190A80E900AB63BF /* RMRAppDelegate.m */; };
+		09EEDC9D190A80E900AB63BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09EEDC9B190A80E900AB63BF /* Main.storyboard */; };
+		09EEDCA0190A80E900AB63BF /* RMRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EEDC9F190A80E900AB63BF /* RMRViewController.m */; };
+		09EEDCA2190A80E900AB63BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09EEDCA1190A80E900AB63BF /* Images.xcassets */; };
+		09EEDCA9190A80E900AB63BF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09EEDCA8190A80E900AB63BF /* XCTest.framework */; };
+		09EEDCAA190A80E900AB63BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09EEDC89190A80E900AB63BF /* Foundation.framework */; };
+		09EEDCAB190A80E900AB63BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09EEDC8D190A80E900AB63BF /* UIKit.framework */; };
+		09EEDCB3190A80E900AB63BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09EEDCB1190A80E900AB63BF /* InfoPlist.strings */; };
+		09EEDCB5190A80E900AB63BF /* RedMadRobotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EEDCB4190A80E900AB63BF /* RedMadRobotTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09EEDCAC190A80E900AB63BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09EEDC7E190A80E900AB63BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09EEDC85190A80E900AB63BF;
+			remoteInfo = RedMadRobot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09EEDC86190A80E900AB63BF /* RedMadRobot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedMadRobot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09EEDC89190A80E900AB63BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		09EEDC8B190A80E900AB63BF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		09EEDC8D190A80E900AB63BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		09EEDC91190A80E900AB63BF /* RedMadRobot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RedMadRobot-Info.plist"; sourceTree = "<group>"; };
+		09EEDC93190A80E900AB63BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		09EEDC95190A80E900AB63BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09EEDC97190A80E900AB63BF /* RedMadRobot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RedMadRobot-Prefix.pch"; sourceTree = "<group>"; };
+		09EEDC98190A80E900AB63BF /* RMRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMRAppDelegate.h; sourceTree = "<group>"; };
+		09EEDC99190A80E900AB63BF /* RMRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMRAppDelegate.m; sourceTree = "<group>"; };
+		09EEDC9C190A80E900AB63BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09EEDC9E190A80E900AB63BF /* RMRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMRViewController.h; sourceTree = "<group>"; };
+		09EEDC9F190A80E900AB63BF /* RMRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMRViewController.m; sourceTree = "<group>"; };
+		09EEDCA1190A80E900AB63BF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		09EEDCA7190A80E900AB63BF /* RedMadRobotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedMadRobotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09EEDCA8190A80E900AB63BF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		09EEDCB0190A80E900AB63BF /* RedMadRobotTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RedMadRobotTests-Info.plist"; sourceTree = "<group>"; };
+		09EEDCB2190A80E900AB63BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		09EEDCB4190A80E900AB63BF /* RedMadRobotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedMadRobotTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09EEDC83190A80E900AB63BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09EEDC8C190A80E900AB63BF /* CoreGraphics.framework in Frameworks */,
+				09EEDC8E190A80E900AB63BF /* UIKit.framework in Frameworks */,
+				09EEDC8A190A80E900AB63BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09EEDCA4190A80E900AB63BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09EEDCA9190A80E900AB63BF /* XCTest.framework in Frameworks */,
+				09EEDCAB190A80E900AB63BF /* UIKit.framework in Frameworks */,
+				09EEDCAA190A80E900AB63BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09EEDC7D190A80E900AB63BF = {
+			isa = PBXGroup;
+			children = (
+				09EEDC8F190A80E900AB63BF /* RedMadRobot */,
+				09EEDCAE190A80E900AB63BF /* RedMadRobotTests */,
+				09EEDC88190A80E900AB63BF /* Frameworks */,
+				09EEDC87190A80E900AB63BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09EEDC87190A80E900AB63BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09EEDC86190A80E900AB63BF /* RedMadRobot.app */,
+				09EEDCA7190A80E900AB63BF /* RedMadRobotTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09EEDC88190A80E900AB63BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09EEDC89190A80E900AB63BF /* Foundation.framework */,
+				09EEDC8B190A80E900AB63BF /* CoreGraphics.framework */,
+				09EEDC8D190A80E900AB63BF /* UIKit.framework */,
+				09EEDCA8190A80E900AB63BF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		09EEDC8F190A80E900AB63BF /* RedMadRobot */ = {
+			isa = PBXGroup;
+			children = (
+				09EEDC98190A80E900AB63BF /* RMRAppDelegate.h */,
+				09EEDC99190A80E900AB63BF /* RMRAppDelegate.m */,
+				09EEDC9B190A80E900AB63BF /* Main.storyboard */,
+				09EEDC9E190A80E900AB63BF /* RMRViewController.h */,
+				09EEDC9F190A80E900AB63BF /* RMRViewController.m */,
+				09EEDCA1190A80E900AB63BF /* Images.xcassets */,
+				09EEDC90190A80E900AB63BF /* Supporting Files */,
+			);
+			path = RedMadRobot;
+			sourceTree = "<group>";
+		};
+		09EEDC90190A80E900AB63BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09EEDC91190A80E900AB63BF /* RedMadRobot-Info.plist */,
+				09EEDC92190A80E900AB63BF /* InfoPlist.strings */,
+				09EEDC95190A80E900AB63BF /* main.m */,
+				09EEDC97190A80E900AB63BF /* RedMadRobot-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09EEDCAE190A80E900AB63BF /* RedMadRobotTests */ = {
+			isa = PBXGroup;
+			children = (
+				09EEDCB4190A80E900AB63BF /* RedMadRobotTests.m */,
+				09EEDCAF190A80E900AB63BF /* Supporting Files */,
+			);
+			path = RedMadRobotTests;
+			sourceTree = "<group>";
+		};
+		09EEDCAF190A80E900AB63BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09EEDCB0190A80E900AB63BF /* RedMadRobotTests-Info.plist */,
+				09EEDCB1190A80E900AB63BF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09EEDC85190A80E900AB63BF /* RedMadRobot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09EEDCB8190A80E900AB63BF /* Build configuration list for PBXNativeTarget "RedMadRobot" */;
+			buildPhases = (
+				09EEDC82190A80E900AB63BF /* Sources */,
+				09EEDC83190A80E900AB63BF /* Frameworks */,
+				09EEDC84190A80E900AB63BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedMadRobot;
+			productName = RedMadRobot;
+			productReference = 09EEDC86190A80E900AB63BF /* RedMadRobot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09EEDCA6190A80E900AB63BF /* RedMadRobotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09EEDCBB190A80E900AB63BF /* Build configuration list for PBXNativeTarget "RedMadRobotTests" */;
+			buildPhases = (
+				09EEDCA3190A80E900AB63BF /* Sources */,
+				09EEDCA4190A80E900AB63BF /* Frameworks */,
+				09EEDCA5190A80E900AB63BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09EEDCAD190A80E900AB63BF /* PBXTargetDependency */,
+			);
+			name = RedMadRobotTests;
+			productName = RedMadRobotTests;
+			productReference = 09EEDCA7190A80E900AB63BF /* RedMadRobotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09EEDC7E190A80E900AB63BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RMR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Пучка Илья";
+				TargetAttributes = {
+					09EEDCA6190A80E900AB63BF = {
+						TestTargetID = 09EEDC85190A80E900AB63BF;
+					};
+				};
+			};
+			buildConfigurationList = 09EEDC81190A80E900AB63BF /* Build configuration list for PBXProject "RedMadRobot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09EEDC7D190A80E900AB63BF;
+			productRefGroup = 09EEDC87190A80E900AB63BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09EEDC85190A80E900AB63BF /* RedMadRobot */,
+				09EEDCA6190A80E900AB63BF /* RedMadRobotTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09EEDC84190A80E900AB63BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09EEDCA2190A80E900AB63BF /* Images.xcassets in Resources */,
+				09EEDC94190A80E900AB63BF /* InfoPlist.strings in Resources */,
+				09EEDC9D190A80E900AB63BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09EEDCA5190A80E900AB63BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09EEDCB3190A80E900AB63BF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09EEDC82190A80E900AB63BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09EEDC9A190A80E900AB63BF /* RMRAppDelegate.m in Sources */,
+				09EEDCA0190A80E900AB63BF /* RMRViewController.m in Sources */,
+				09EEDC96190A80E900AB63BF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09EEDCA3190A80E900AB63BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09EEDCB5190A80E900AB63BF /* RedMadRobotTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09EEDCAD190A80E900AB63BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09EEDC85190A80E900AB63BF /* RedMadRobot */;
+			targetProxy = 09EEDCAC190A80E900AB63BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		09EEDC92190A80E900AB63BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09EEDC93190A80E900AB63BF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		09EEDC9B190A80E900AB63BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09EEDC9C190A80E900AB63BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09EEDCB1190A80E900AB63BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09EEDCB2190A80E900AB63BF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09EEDCB6190A80E900AB63BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		09EEDCB7190A80E900AB63BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09EEDCB9190A80E900AB63BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RedMadRobot/RedMadRobot-Prefix.pch";
+				INFOPLIST_FILE = "RedMadRobot/RedMadRobot-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		09EEDCBA190A80E900AB63BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RedMadRobot/RedMadRobot-Prefix.pch";
+				INFOPLIST_FILE = "RedMadRobot/RedMadRobot-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		09EEDCBC190A80E900AB63BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RedMadRobot.app/RedMadRobot";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RedMadRobot/RedMadRobot-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RedMadRobotTests/RedMadRobotTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		09EEDCBD190A80E900AB63BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RedMadRobot.app/RedMadRobot";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RedMadRobot/RedMadRobot-Prefix.pch";
+				INFOPLIST_FILE = "RedMadRobotTests/RedMadRobotTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09EEDC81190A80E900AB63BF /* Build configuration list for PBXProject "RedMadRobot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09EEDCB6190A80E900AB63BF /* Debug */,
+				09EEDCB7190A80E900AB63BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09EEDCB8190A80E900AB63BF /* Build configuration list for PBXNativeTarget "RedMadRobot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09EEDCB9190A80E900AB63BF /* Debug */,
+				09EEDCBA190A80E900AB63BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		09EEDCBB190A80E900AB63BF /* Build configuration list for PBXNativeTarget "RedMadRobotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09EEDCBC190A80E900AB63BF /* Debug */,
+				09EEDCBD190A80E900AB63BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09EEDC7E190A80E900AB63BF /* Project object */;
+}
