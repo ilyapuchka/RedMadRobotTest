@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09A9A7B5190D040000960169 /* NSObject+RMR.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A9A7B4190D040000960169 /* NSObject+RMR.m */; };
+		09A9A7BA190D18E900960169 /* RMRImagesContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A9A7B9190D18E900960169 /* RMRImagesContainer.m */; };
 		09EEDC8A190A80E900AB63BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09EEDC89190A80E900AB63BF /* Foundation.framework */; };
 		09EEDC8C190A80E900AB63BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09EEDC8B190A80E900AB63BF /* CoreGraphics.framework */; };
 		09EEDC8E190A80E900AB63BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09EEDC8D190A80E900AB63BF /* UIKit.framework */; };
@@ -21,6 +23,8 @@
 		09EEDCAB190A80E900AB63BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09EEDC8D190A80E900AB63BF /* UIKit.framework */; };
 		09EEDCB3190A80E900AB63BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09EEDCB1190A80E900AB63BF /* InfoPlist.strings */; };
 		09EEDCB5190A80E900AB63BF /* RedMadRobotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EEDCB4190A80E900AB63BF /* RedMadRobotTests.m */; };
+		09EEDCE4190BF8E400AB63BF /* RMRInstaImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EEDCE0190BF8E400AB63BF /* RMRInstaImage.m */; };
+		09EEDCE5190BF8E400AB63BF /* RMRInstaUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EEDCE2190BF8E400AB63BF /* RMRInstaUser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09A9A7B3190D040000960169 /* NSObject+RMR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RMR.h"; sourceTree = "<group>"; };
+		09A9A7B4190D040000960169 /* NSObject+RMR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RMR.m"; sourceTree = "<group>"; };
+		09A9A7B8190D18E900960169 /* RMRImagesContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMRImagesContainer.h; sourceTree = "<group>"; };
+		09A9A7B9190D18E900960169 /* RMRImagesContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMRImagesContainer.m; sourceTree = "<group>"; };
 		09EEDC86190A80E900AB63BF /* RedMadRobot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedMadRobot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09EEDC89190A80E900AB63BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		09EEDC8B190A80E900AB63BF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +61,10 @@
 		09EEDCB0190A80E900AB63BF /* RedMadRobotTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RedMadRobotTests-Info.plist"; sourceTree = "<group>"; };
 		09EEDCB2190A80E900AB63BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		09EEDCB4190A80E900AB63BF /* RedMadRobotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedMadRobotTests.m; sourceTree = "<group>"; };
+		09EEDCDF190BF8E400AB63BF /* RMRInstaImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMRInstaImage.h; sourceTree = "<group>"; };
+		09EEDCE0190BF8E400AB63BF /* RMRInstaImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMRInstaImage.m; sourceTree = "<group>"; };
+		09EEDCE1190BF8E400AB63BF /* RMRInstaUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMRInstaUser.h; sourceTree = "<group>"; };
+		09EEDCE2190BF8E400AB63BF /* RMRInstaUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMRInstaUser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +124,8 @@
 		09EEDC8F190A80E900AB63BF /* RedMadRobot */ = {
 			isa = PBXGroup;
 			children = (
+				09EEDCE6190BF8FC00AB63BF /* Categories */,
+				09EEDCDC190BF8E400AB63BF /* Data model */,
 				09EEDC98190A80E900AB63BF /* RMRAppDelegate.h */,
 				09EEDC99190A80E900AB63BF /* RMRAppDelegate.m */,
 				09EEDC9B190A80E900AB63BF /* Main.storyboard */,
@@ -150,6 +164,28 @@
 				09EEDCB1190A80E900AB63BF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09EEDCDC190BF8E400AB63BF /* Data model */ = {
+			isa = PBXGroup;
+			children = (
+				09A9A7B8190D18E900960169 /* RMRImagesContainer.h */,
+				09A9A7B9190D18E900960169 /* RMRImagesContainer.m */,
+				09EEDCDF190BF8E400AB63BF /* RMRInstaImage.h */,
+				09EEDCE0190BF8E400AB63BF /* RMRInstaImage.m */,
+				09EEDCE1190BF8E400AB63BF /* RMRInstaUser.h */,
+				09EEDCE2190BF8E400AB63BF /* RMRInstaUser.m */,
+			);
+			path = "Data model";
+			sourceTree = "<group>";
+		};
+		09EEDCE6190BF8FC00AB63BF /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				09A9A7B3190D040000960169 /* NSObject+RMR.h */,
+				09A9A7B4190D040000960169 /* NSObject+RMR.m */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,9 +286,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09A9A7BA190D18E900960169 /* RMRImagesContainer.m in Sources */,
 				09EEDC9A190A80E900AB63BF /* RMRAppDelegate.m in Sources */,
 				09EEDCA0190A80E900AB63BF /* RMRViewController.m in Sources */,
+				09EEDCE4190BF8E400AB63BF /* RMRInstaImage.m in Sources */,
+				09A9A7B5190D040000960169 /* NSObject+RMR.m in Sources */,
 				09EEDC96190A80E900AB63BF /* main.m in Sources */,
+				09EEDCE5190BF8E400AB63BF /* RMRInstaUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
