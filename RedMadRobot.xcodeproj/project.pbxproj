@@ -29,6 +29,7 @@
 		09EEDCF8190BF95000AB63BF /* RMRImagesLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EEDCEF190BF95000AB63BF /* RMRImagesLoader.m */; };
 		09EEDCF9190BF95000AB63BF /* RMRInstagramAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EEDCF1190BF95000AB63BF /* RMRInstagramAPIClient.m */; };
 		09EEDCFA190BF95000AB63BF /* RMRCollageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EEDCF4190BF95000AB63BF /* RMRCollageView.m */; };
+		09EEDCFB190BF95000AB63BF /* RMRCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EEDCF6190BF95000AB63BF /* RMRCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,8 @@
 		09EEDCF1190BF95000AB63BF /* RMRInstagramAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMRInstagramAPIClient.m; sourceTree = "<group>"; };
 		09EEDCF3190BF95000AB63BF /* RMRCollageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMRCollageView.h; sourceTree = "<group>"; };
 		09EEDCF4190BF95000AB63BF /* RMRCollageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMRCollageView.m; sourceTree = "<group>"; };
+		09EEDCF5190BF95000AB63BF /* RMRCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMRCollectionViewCell.h; sourceTree = "<group>"; };
+		09EEDCF6190BF95000AB63BF /* RMRCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMRCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +223,8 @@
 			children = (
 				09EEDCF3190BF95000AB63BF /* RMRCollageView.h */,
 				09EEDCF4190BF95000AB63BF /* RMRCollageView.m */,
+				09EEDCF5190BF95000AB63BF /* RMRCollectionViewCell.h */,
+				09EEDCF6190BF95000AB63BF /* RMRCollectionViewCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -330,6 +335,7 @@
 				09A9A7B5190D040000960169 /* NSObject+RMR.m in Sources */,
 				09EEDCF8190BF95000AB63BF /* RMRImagesLoader.m in Sources */,
 				09EEDCE9190BF8FC00AB63BF /* NSURL+RMR.m in Sources */,
+				09EEDCFB190BF95000AB63BF /* RMRCollectionViewCell.m in Sources */,
 				09EEDC96190A80E900AB63BF /* main.m in Sources */,
 				09EEDCE5190BF8E400AB63BF /* RMRInstaUser.m in Sources */,
 				09EEDCF9190BF95000AB63BF /* RMRInstagramAPIClient.m in Sources */,
