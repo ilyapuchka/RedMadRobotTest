@@ -26,6 +26,7 @@
 		09EEDCE4190BF8E400AB63BF /* RMRInstaImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EEDCE0190BF8E400AB63BF /* RMRInstaImage.m */; };
 		09EEDCE5190BF8E400AB63BF /* RMRInstaUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EEDCE2190BF8E400AB63BF /* RMRInstaUser.m */; };
 		09EEDCE9190BF8FC00AB63BF /* NSURL+RMR.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EEDCE8190BF8FC00AB63BF /* NSURL+RMR.m */; };
+		09EEDCF8190BF95000AB63BF /* RMRImagesLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EEDCEF190BF95000AB63BF /* RMRImagesLoader.m */; };
 		09EEDCF9190BF95000AB63BF /* RMRInstagramAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EEDCF1190BF95000AB63BF /* RMRInstagramAPIClient.m */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +70,8 @@
 		09EEDCE2190BF8E400AB63BF /* RMRInstaUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMRInstaUser.m; sourceTree = "<group>"; };
 		09EEDCE7190BF8FC00AB63BF /* NSURL+RMR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+RMR.h"; sourceTree = "<group>"; };
 		09EEDCE8190BF8FC00AB63BF /* NSURL+RMR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+RMR.m"; sourceTree = "<group>"; };
+		09EEDCEE190BF95000AB63BF /* RMRImagesLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMRImagesLoader.h; sourceTree = "<group>"; };
+		09EEDCEF190BF95000AB63BF /* RMRImagesLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMRImagesLoader.m; sourceTree = "<group>"; };
 		09EEDCF0190BF95000AB63BF /* RMRInstagramAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMRInstagramAPIClient.h; sourceTree = "<group>"; };
 		09EEDCF1190BF95000AB63BF /* RMRInstagramAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMRInstagramAPIClient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -200,6 +203,8 @@
 		09EEDCED190BF95000AB63BF /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				09EEDCEE190BF95000AB63BF /* RMRImagesLoader.h */,
+				09EEDCEF190BF95000AB63BF /* RMRImagesLoader.m */,
 				09EEDCF0190BF95000AB63BF /* RMRInstagramAPIClient.h */,
 				09EEDCF1190BF95000AB63BF /* RMRInstagramAPIClient.m */,
 			);
@@ -309,6 +314,7 @@
 				09EEDCA0190A80E900AB63BF /* RMRViewController.m in Sources */,
 				09EEDCE4190BF8E400AB63BF /* RMRInstaImage.m in Sources */,
 				09A9A7B5190D040000960169 /* NSObject+RMR.m in Sources */,
+				09EEDCF8190BF95000AB63BF /* RMRImagesLoader.m in Sources */,
 				09EEDCE9190BF8FC00AB63BF /* NSURL+RMR.m in Sources */,
 				09EEDC96190A80E900AB63BF /* main.m in Sources */,
 				09EEDCE5190BF8E400AB63BF /* RMRInstaUser.m in Sources */,
