@@ -65,6 +65,9 @@ typedef NS_ENUM(NSUInteger, RMRCollageResolution){
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    
+    if (self.previewImagesProvider.finished) self.previewImagesProvider = [RMRImagesLoader new];
+    if (self.shareImagesProvider.finished) self.shareImagesProvider = [RMRImagesLoader new];
 }
 
 - (void)viewWillAppear:(BOOL)animated

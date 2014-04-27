@@ -84,6 +84,7 @@ static NSUInteger imagesLeft;
 {
     [self.session invalidateAndCancel];
     self.session = nil;
+    self.finished = YES;
 }
 
 - (void)dealloc
